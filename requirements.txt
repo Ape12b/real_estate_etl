@@ -1,4 +1,4 @@
 azure-functions
-pandas
-openpyxl
-pyarrow
+# pandas
+# openpyxl
+# pyarrow
