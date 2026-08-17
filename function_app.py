@@ -7,7 +7,7 @@ app = func.FunctionApp()
 
 @app.route(
     route="parse_csv",
-    methods=["POST"],
+    methods=["POST","GET"],
     auth_level=func.AuthLevel.FUNCTION,
 )
 def parse_csv(req: func.HttpRequest) -> func.HttpResponse:
